@@ -1,0 +1,45 @@
+body {
+  background: #fff;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.grid {
+  border: 1px solid black;
+  height: 565px;
+  width: 680px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  gap: 1em;
+  background: #000080;
+}
+
+.hole {
+  background: #fff;
+}
+
+.grid div {
+  height: 80px;
+  width: 80px;
+  border: 1px solid black;
+  border-radius: 100%;
+}
+
+.player-one {
+  background-color: red;
+  border-radius: 10px;
+  background-image: url(./images/player-1.png);
+  background-position: center;
+}
+
+.player-two {
+  background-color: yellow;
+  border-radius: 10px;
+  background-image: url(./images/player-2.png);
+  background-position: center;
+}
+.grid div.hidden {
+  border: 1px solid white;
+}
